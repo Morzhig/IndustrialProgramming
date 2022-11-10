@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d698295-e005-441c-a080-34dd22ecb632" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI_sum.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_sum.java" afterDir="false" />
-    </list>
+    <list default="true" id="7d698295-e005-441c-a080-34dd22ecb632" name="Changes" comment="Added simple GUI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +46,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668062900293</updated>
-      <workItem from="1668062902140" duration="3249000" />
+      <workItem from="1668062902140" duration="3393000" />
     </task>
+    <task id="LOCAL-00001" summary="Added simple GUI">
+      <created>1668066293619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668066293619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +71,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added simple GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple GUI" />
   </component>
 </project>
