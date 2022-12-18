@@ -1,0 +1,6 @@
+5
+2 Friend
+3 World
+1 Hello
+4 Good
+5 Old

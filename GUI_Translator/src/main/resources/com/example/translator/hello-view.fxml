@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox id="AnchorPane" alignment="CENTER" centerShape="false" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.translator.HelloController">
+    <children>
+      <AnchorPane prefHeight="200.0" prefWidth="350.0">
+         <children>
+            <TextField fx:id="English" layoutX="25.0" layoutY="50.0" prefWidth="300" promptText="What to translate" />
+            <TextField fx:id="French" editable="false" layoutX="25.0" layoutY="100.0" prefWidth="300" promptText="Result" />
+              <Button fx:id="button" alignment="CENTER" layoutX="75.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClick" prefWidth="200.0" text="Translate" textAlignment="CENTER" />
+            <Label layoutX="30.0" layoutY="15.0" text="Welcome to translator from English to French">
+               <font>
+                  <Font name="Calibri Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    </children>
+</VBox>

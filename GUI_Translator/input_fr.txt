@@ -1,0 +1,6 @@
+5
+2 ami
+3 Monde
+1 Bonjour
+4 Bien
+5 Vieux
