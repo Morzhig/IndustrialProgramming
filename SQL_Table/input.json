@@ -1,0 +1,25 @@
+{
+  "persons":
+  [
+    {
+      "id": -1,
+      "userName": "First",
+      "email": "first913@gmail.com",
+      "active": 1
+    },
+    {
+      "id": -1,
+      "userName": "Second",
+      "email": "second1812@gmail.com",
+      "active": 0
+    },
+    {
+      "id": -1,
+      "userName": "Third",
+      "email": "third2308@mail.ru",
+      "active": 1
+    }
+  ],
+  "size":3,
+  "count":3
+}

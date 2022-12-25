@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="AnchorPane" alignment="CENTER" centerShape="false" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sql_table.HelloController">
+    <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+              <TableView fx:id="tableUsers" layoutY="-15.0" prefHeight="250.0" prefWidth="620.0">
+                  <columns>
+                      <!-- Колонки таблицы -->
+                      <TableColumn fx:id="id" prefWidth="80.0" text="№" />
+                      <TableColumn fx:id="username" prefWidth="180.0" text="UserName" />
+                      <TableColumn fx:id="email" prefWidth="180.0" text="Email" />
+                      <TableColumn fx:id="active" prefWidth="180.0" text="Active" />
+                  </columns>
+              </TableView>
+<!--            <TextField fx:id="path" alignment="CENTER" layoutX="150.0" layoutY="335.0" prefWidth="300.0" promptText="Enter path to your json file" />-->
+             <TextField fx:id="deleteField" alignment="CENTER" layoutX="100.0" layoutY="335.0" prefWidth="200.0" promptText="Enter name of a person you want to delete" />
+             <Button fx:id="create_button" alignment="CENTER" layoutX="100.0" layoutY="240.0" mnemonicParsing="false" onAction="#Create" prefWidth="200.0" text="Create/Update" textAlignment="CENTER" />
+            <Button fx:id="update_button" layoutX="100.0" layoutY="300.0" mnemonicParsing="false" onAction="#Delete" prefWidth="200.0" text="Delete" />
+             <Button fx:id="delete_button" layoutX="325.0" layoutY="300.0" mnemonicParsing="false" onAction="#Delete_All" prefWidth="200.0" text="Delete All" />
+            <Button fx:id="json_button" layoutX="325.0" layoutY="240.0" mnemonicParsing="false" onAction="#readJson" prefWidth="200.0" text="Add from file" />
+         </children>
+      </AnchorPane>
+        </children>
+</VBox>
